@@ -9,3 +9,18 @@ edition = "2018"
 [dependencies]
 clap = "~2.32.0"
 csv = "~1.0"
+rand = "0.6.5"
+uuid = { version = "~0.7.4", features = ["v4"] }
+rayon = "~1.0.3"
+
+[dev-dependencies]
+criterion = "~0.2.11"
+
+[[bench]]
+name = "benchamrks"
+harness = false
+path = "benches/benchmarks.rs"
+
+[[bin]]
+name = "csv_gen"
+path = "benches/csv_gen/main.rs"

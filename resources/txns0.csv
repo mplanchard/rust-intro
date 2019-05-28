@@ -1,3 +1,5 @@
-from,to,amount
-a,b,100
-q,r,200
+account,txn_id,amount,balance
+a,1,-100,1000
+b,1,100,1100
+q,2,-200,200
+r,2,200,200
