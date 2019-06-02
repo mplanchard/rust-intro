@@ -39,6 +39,6 @@ List of awesome [Rust projects](https://github.com/rust-unofficial/awesome-rust)
 
 There are tons of great articles and videos on Rust and how to get used to the language, for starters check out these links
 
-[Hacker News Article: Beginner Bites](https://hackernoon.com/a-taste-of-rust-6d8fc60e050)
+[Hackernoon Article: Beginner Bites](https://hackernoon.com/a-taste-of-rust-6d8fc60e050)
 
 [Github Repo: Good first issues](https://github.com/MunGell/awesome-for-beginners#rust)
