@@ -6,9 +6,24 @@
 
 ## What is Rust?
 
-At a high level Rust is a language thats goal is to allow programmers to get systems-level performance without devoting the time to learn about manual memory managment. It also comes out of the box with a set of tools to steer you towards writing better, more optomized code.
+At a high level Rust is a language thats goal is to allow programmers to get systems-level performance without devoting the time to learn about manual memory management. It also comes out of the box with a set of tools to steer you towards writing better, more optimized code.
+
+## Installing Rust
+
+```sh
+curl https://sh.rustup.rs -sSf | sh  
+source $HOME/.cargo/env
+rustup install nightly 
+```
 
 ## Where to Start
+
+The Docs! Rust can build an offline copy of the documentation and it is strongly encouraged that you start here to learn about the capabilities and the built in methods of Rust.
+
+```sh
+rustup run nightly cargo doc --open 
+```
+
 [Reading Learners](https://doc.rust-lang.org/stable/book/), checkout the intro book on Rust
 
 [Visual / Auditory Learners](https://www.youtube.com/watch?v=zF34dRivLOw), video crash course from Traversy Media
