@@ -20,6 +20,12 @@ rustup install nightly
 
 The Docs! Rust can build an offline copy of the documentation and it is strongly encouraged that you start here to learn about the capabilities and the built in methods of Rust.
 
+### Standard Offline Docs
+```sh
+rustup docs
+```
+
+### Project Docs
 ```sh
 rustup run nightly cargo doc --open 
 ```
